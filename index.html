@@ -9,6 +9,56 @@
 </head>
 
 <body>
+    <div class="piano">
+        <div class="piano_body">
+            <div class="piano_speaker"></div>
+
+            <div class="piano_interface">
+
+                <div class="piano_controls">
+                    <h4>PIANO</h4>
+                    <label for="">
+                        <input type="radio" name="control" id="" class="piano_control_option" value="letterNotes">
+                        Letter Notes
+                    </label>
+                    <label for="">
+                        <input type="radio" name="control" id="" class="piano_control_option" value="keyboard">
+                        Keyboard
+                    </label>
+                    <label for="">
+                        <input type="radio" name="control" id="" class="piano_control_option" value="none">
+                        None
+                    </label>
+                </div>
+
+                <div class="piano_autoplay">
+                    <h4 class="piano_heading">AUTOPLAY</h4>
+                    <select name="" id="" class="piano_song-list">
+                        <option value="1">Jingle Bells</option>
+                        <option value="2">Happy Birthday</option>
+                    </select>
+                    <label>Temp:
+                        <select class="piano_temp">
+                            <option value="1">Slow</option>
+                            <option value="3">Fast</option>
+                            <option value="2">Normal</option>
+                        </select>
+                    </label>
+                    <button class="piano_play-btn">Play</button>
+                </div>
+            </div>
+            <div class="piano_speaker"></div>
+        </div>
+
+        <div class="piano_keyboard">
+            <button class="piano_key piano_key--white">C1</button>
+            <button class="piano_key piano_key-black">C#1</button>
+            <button class="piano_key piano_key--white">D1</button>
+            <button class="piano_key piano_key-black">D#1</button>
+            <button class="piano_key piano_key--white">E</button>
+            <button class="piano_key piano_key--white">F</button>
+        </div>
+    </div>
 
 
 
